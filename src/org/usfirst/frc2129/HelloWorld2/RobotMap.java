@@ -60,13 +60,13 @@ public class RobotMap {
         driveSubsystemLeftFrontController = new Talon(0);
         LiveWindow.addActuator("DriveSubsystem", "LeftFrontController", (Talon) driveSubsystemLeftFrontController);
         
-        driveSubsystemLeftRearController = new Talon(1);
+        driveSubsystemLeftRearController = new Talon(2);
         LiveWindow.addActuator("DriveSubsystem", "LeftRearController", (Talon) driveSubsystemLeftRearController);
         
-        driveSubsystemRightFrontController = new Talon(2);
+        driveSubsystemRightFrontController = new Talon(3);
         LiveWindow.addActuator("DriveSubsystem", "RightFrontController", (Talon) driveSubsystemRightFrontController);
         
-        driveSubsystemRightRearController = new Talon(3);
+        driveSubsystemRightRearController = new Talon(1);
         LiveWindow.addActuator("DriveSubsystem", "RightRearController", (Talon) driveSubsystemRightRearController);
         
         driveSubsystemRobotDrive = new RobotDrive(driveSubsystemLeftFrontController, driveSubsystemLeftRearController,
